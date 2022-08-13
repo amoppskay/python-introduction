@@ -9,11 +9,12 @@ item_quantity = 10
 print(item_quantity)
 
 
-# print the type of data, using python keyword called type
-print(type(1))
+# # print the type of data, using python keyword called type
+print(type(1)) 
+# when you use the word 'type' it will display the data type it is eg int, bool, string etc
 print(type(2))
 print(type(a))
 print(type(b))
 print(type(item_quantity))
 
-print(type(4.5))
+# print(type(4.5))
