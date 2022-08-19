@@ -26,6 +26,8 @@ developer = "Osh"
 print(tutor == developer)
 # /it will return True since we set the variable/key=value on lines 23 & 24 
 
+
+
 print(10 < 9)
 # this will print/return False cos 10 is not less than (<) 9
 

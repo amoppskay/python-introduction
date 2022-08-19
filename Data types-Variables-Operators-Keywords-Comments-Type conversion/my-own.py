@@ -12,19 +12,19 @@
 
 # print(type(1))
 # type(100)
-# # no fxn value on lne 13 because you didnt ask it to print
+# # no fxn value on lne 14 because you didnt ask it to print
 # print(type(100))
 
 # examples for string data type which must be in ("")
-# print("Titi")
-# # student = "Titi"
-# student = "Adetoun"
+print("Titi")
+student = "Titi"
+student = "Adetoun"
 
-# print(student)
-# print(type(student))
+print(student)
+print(type(student))
 
-# print(student, " in now in JJTech")
-# student is used a variable, hence it isnt in "" so student becomes a key and will return the vlaue of whatever 
+print(student, " is now in JJTech")
+# student is used a variable, hence it isnt in "" so student becomes a key and will return the value of whatever 
 # name we put as student
 
 # print(True) 
@@ -38,9 +38,13 @@
 # is_paid = True
 # print("Doors open", is_paid)
 
-blood_group = None
+# blood_group = None
 # dont add  "" so it doesnt look like string, python picks it as None data type
-print(blood_group)
+# print(blood_group)
 
-print(type(None))
+# print(type(None))
 # this will print type as <class 'NoneType'>
+
+# a = 2
+# b = 4
+# print(a + b)
