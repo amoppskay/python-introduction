@@ -16,14 +16,14 @@
 # print(type(100))
 
 # examples for string data type which must be in ("")
-print("Titi")
-student = "Titi"
-student = "Adetoun"
+# print("Titi")
+# student = "Titi"
+# student = "Adetoun"
 
-print(student)
-print(type(student))
+# print(student)
+# print(type(student))
 
-print(student, " is now in JJTech")
+# print(student, " is now in JJTech")
 # student is used a variable, hence it isnt in "" so student becomes a key and will return the value of whatever 
 # name we put as student
 
@@ -48,3 +48,54 @@ print(student, " is now in JJTech")
 # a = 2
 # b = 4
 # print(a + b)
+
+# logical comparison
+# maths = 47
+# science = 70
+# pass_mark = 35
+# if maths >= pass_mark and science >= pass_mark: 
+#     print("test passed")
+# else:
+#     print("test failed") 
+# this will return pass since both scores are greater than pass_mark
+
+# maths = 25
+# science = 34
+# pass_mark = 35
+# if maths >= pass_mark and science >= pass_mark: 
+#     print("test passed")
+# else:
+#     print("test failed") 
+# this will return failed since both scores are less than pass_mark
+
+# maths = 25
+# science = 34
+# pass_mark = 35
+# if maths >= pass_mark or science >= pass_mark: 
+#     print("test passed")
+# else:
+#     print("test failed") 
+# this will return failed since both scores are less than pass_mark
+
+"""
+maths = 47
+science = 70
+pass_mark = 35
+if maths >= pass_mark or science >= pass_mark: 
+    print("test passed")
+else:
+    print("test failed") 
+# this will return pass since both scores are greater than pass_mark
+"""
+
+chocolate = 18
+coffee = 30.50
+print(coffee+chocolate)
+# python automatically does implicit conversion here, since one is int data type and the other is float type
+# implicit is automatic conversion during operation
+
+age = 35.5
+print(age)
+# above will return the age as it is written on line 97 which is float
+print(int(age))
+# above will convert the result from float to int as we asked it to convert the result to int not float

@@ -7,7 +7,6 @@ y = '@'
 name = 'JJ Tech'
 fruits = ["banana", "apple", "watermelon"]
 
-
 print('J' in name)
 # "J " is in name so its True
 print('vamsi' in name)

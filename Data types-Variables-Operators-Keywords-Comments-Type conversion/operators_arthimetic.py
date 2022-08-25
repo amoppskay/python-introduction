@@ -21,7 +21,7 @@ div1 = a / b
 div2 = a // b
 # when division is done and you dont need the decimal use // so it will take .25 out
 
-# Module of both number
+# Modulos of both number
 mod = a % b
 # mod operation divides the number and gives the remainder 9/4 = 8 remainder 1
 
