@@ -16,30 +16,33 @@ print(fruits)
 print(my_set)
 
 
-# what will happen when we try to add duplicate element to the set
-# even though we try it wont let as add it as the same item already exists in the set
-# we can correlate with the playlist of songs
+# # what will happen when we try to add duplicate element to the set
+# # even though we try it wont let as add it as the same item already exists in the set
+# # we can correlate with the playlist of songs
 print('\n #test items duplication in the set')
 duplicate_item_set = {10, 20, 30, 10}
 print(duplicate_item_set)
 
 
-# Indexing --> set doesnt suppport indexing like lists & tuples
-# so hence You cannot access items in a set by referring to an index or a key.
-#  But you can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the in keyword.
-# print('\n #indexing check in the set')
+# # Indexing --> set doesnt suppport indexing like lists & tuples
+# # so hence You cannot access items in a set by referring to an index or a key.
+# #  But you can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the in keyword.
+print('\n #indexing check in the set')
 # print(students[0])
+# set doesnt support index cos it is unordered
 
-# check if an item exists in the set
+# # check if an item exists in the set
 print('\n # check if an item exists in the set')
 print('vamsi' in students)
+# membership to check if vamsi is in students which is True
 if 'apple' in fruits:
     print('yes')
 else:
     print('no')
+# membership of apple in fruit is yes, if not "no"
 
 
-# check type of the set variables with type() method
+# # check type of the set variables with type() method
 print('\n # check type of the set variables with type() method')
 print(type(numbers))
 print(type(students))
@@ -54,29 +57,29 @@ print('\n # check dictionary length')
 print(len(students))
 print(len(my_set))
 
-# adding an a new item or modifying an item in set
-# wont happen because we have already seen that set doesnt support indexes so we cant assign values with index
-print('\n # adding an a new item or modifying an item in set')
-# students[0]='jenny'
-# print(students)
+# # adding an a new item or modifying an item in set
+# # wont happen because we have already seen that set doesnt support indexes so we cant assign values with index
+# print('\n # adding an a new item or modifying an item in set')
+students.add('jenny')
+print(students)
 
-# so the correct way to do it is via the set built-in method add()
+# # so the correct way to do it is via the set built-in method add()
 students.add("jenny")
 print(students)
 
 
-# what will happen if we try to add the same value (remember set cant have a duplicate value)
+# # what will happen if we try to add the same value (remember set cant have a duplicate value)
 print('\n # what will happen if we try to add the same value (remember set cant have a duplicate value)')
 students.add('avinash')
 print(students)
 
-# add multiple values to an existing set
+# # add multiple values to an existing set
 print("\n # add multiple values to an existing set")
 students.update(["jermy", "thomas", "kenny"])
 print(students)
 
 
-# remove an existing item from the set
+# # remove an existing item from the set
 print("\n # remove an existing item from the set")
 students.remove("jenny")
 print(students)
@@ -84,7 +87,7 @@ print(students)
 # it will throw an error saying that the item key isnt found in the set
 # students.remove("jenny")
 
-# lets understand how to easily delete if a key exists otherwise ignore instead of raising an error
+# # lets understand how to easily delete if a key exists otherwise ignore instead of raising an error
 print('\n # lets understand how to easily delete if a key exists otherwise ignore instead of raising an error')
 if 'jenny' in numbers:
     numbers.remove('jenny')
@@ -93,40 +96,44 @@ else:
     print('given item not found to delete')
     print(students)
 
-# other way to do the same step as above is using discard() method which is really simple
+# # other way to do the same step as above is using discard() method which is really simple
 print('\n #trying deletion via discard')
 students.discard('thomas')
 students.discard(12345)
 print(students)
+# it removes straight unlike remove that throws an error that the item isn't in the set if not found
 
-# iterate over all items in set and access individual items
+# # iterate over all items in set and access individual items
 print('\n # iterate over all items in set and access individual items')
 for i in students:
     print(i)
 
 
 
-# set union
-# reminder --> set wont have duplicates so even after union no duplicates
+# # set union
+# # reminder --> set wont have duplicates so even after union no duplicates
 print("\n # set union")
 u = numbers.union(my_set)
 print(u)
+# combines all the values into a set, by performing a union, it takes out the dup value
 
-# set intersection --> to get common data between two sets
+# # set intersection --> to get common data between two sets
 print("\n # set intersection --> to get common data between two sets")
 i = numbers.intersection(my_set)
 print(i)
+# intersection is for common values in a set, 10, 20
 
-
-# clear all items from set
+# # clear all items from set
 print('\n # clear all items from set')
 students.clear()
 print(students)
+# clears all the values in the set
 
-# delete the complete set
+# # delete the complete set
 print('\n # delete the complete set')
 del students
 print(students)
+# no values students found cos it has been cleared early
 
 
 

@@ -21,11 +21,27 @@
 # ends with the word stated or False if not
 
 # tuple
-driving_rules = ("drive safe", "observe speed limit", "don't drink", "no phones while driving", "use seatbelts")
+# driving_rules = ("drive safe", "observe speed limit", "don't drink", "no phones while driving", "use seatbelts")
 
-print(type(driving_rules))
+# print(type(driving_rules))
 
-print(driving_rules[2])
+# print(driving_rules[2])
 
-driving_rules[3] = "drink & drive"
+# driving_rules[3] = "drink & drive"
 # this can't be modified, will return error cos its Tuple type
+
+# sets
+# wish_list = {"aws", "devops", "terraform", "cfn", "ansible", "aws"}
+# print(wish_list)
+# print(type(wish_list))
+
+name = "Titi   "
+email = "titi@jjtech,com"
+
+# print(dir(name))
+print(name.strip().replace("T", "J"))
+print(len(name), len(name.strip()))
+print(name.upper())
+print(name.capitalize())
+print(name.join("Ogunsina"))
+print(name.join(["Ogunsina", "Monisola"]))
