@@ -1,4 +1,4 @@
-# students = ["Osh",  "Adetoun", "Priye", "Frank"]
+students = ["Osh",  "Adetoun", "Priye", "Frank"]
 # print(students)
 
 # print("Osh" in students)
@@ -39,9 +39,15 @@ name = "Titi   "
 email = "titi@jjtech,com"
 
 # print(dir(name))
-print(name.strip().replace("T", "J"))
-print(len(name), len(name.strip()))
-print(name.upper())
-print(name.capitalize())
-print(name.join("Ogunsina"))
-print(name.join(["Ogunsina", "Monisola"]))
+# print(name.strip().replace("T", "J"))
+# print(len(name), len(name.strip()))
+# print(name.upper())
+# print(name.capitalize())
+# print(name.join("Ogunsina"))
+# print(name.join(["Ogunsina", "Monisola"]))
+
+
+# for each_student in students: # # for is to loop 
+#     print(each_student.upper()) # #upper is an attribute fxn used with list data type/structure
+# loops are used to avoid repetition, it will iterate over each value 1 @ a time 
+# and the return the value of each student on the list in Upper case on separate lines

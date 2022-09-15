@@ -5,16 +5,16 @@
 # demonstrate break statement
 
 s = 'jjtech python @ learning communityfkghikghslghhgisa[j]]qapoweoifrh[o iw hwe]rioweroiwueqriuwqerwe[irwpeoruweqroiwehw'
-# Break example using for loop
-print("\n# Break example using for loop")
-for letter in s:
-	print(letter)
-	# break the loop as soon it sees '@'
-	if letter == '@':
-		break
+# # Break example using for loop
+# print("\n# Break example using for loop")
+# for letter in s:
+# 	print(letter)
+# 	# break the loop as soon it sees '@'
+# 	if letter == '@':
+# 		break #break iteration on @ and stop iterating
 
-print("\nOut of for loop")
-# print()
+# print("\nOut of for loop")
+# # print()
 
 
 # Break example using while loop

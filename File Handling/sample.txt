@@ -1,5 +1,4 @@
-Hello! Welcome to sample.txt
-This file is for testing purposes.
-Good Luck!
-Happy to be part of this Python learning class.
-Happy learning everyone :) 
+Vamsi is a good teacher
+He teaches all his classes very well
+Avinash is another good teacher in JJTECH
+I love both of them

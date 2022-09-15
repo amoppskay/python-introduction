@@ -27,16 +27,16 @@ print(friends["class-2"])
 
 # # check if key exists in a dictionary
 print('\n # check if key exists in a dictionary')
-if 'watermelon' in fruits: #in is membership operator
+if 'watermelon' in fruits: #in is membership operator; if is conditional statemenr
     print(fruits['watermelon'])
-else:
+else: #otherwise or if not
     print('requested key not found')
-# returns the value of watermelon on the dictionary; fruits (conditional statement)
-# since watermelon exists, it returned the value 2.75 if not "requested key mot found"
+# returns the value of watermelon on the fruits dictionary
+# since watermelon exists, it returned the value 2.75 if not "requested key not found"
 
-if 'class' in student: # in is membership operator
+if 'class' in student: # in is membership operator; if is conditional statement
     print(student['college'])
-else:
+else: # otherwise or if not
     print('requested key not found')
 # conditional statement (if; else) since there's no class in student dictionary, it returned
 # "requested key not found"
@@ -72,7 +72,7 @@ print(student.values())
 
 # # copy all the dictionary data into another variable
 print('\n # copy all the dictionary data into another variable')
-duplicate_student = student.copy()
+duplicate_student = student.copy() # = is assignment operator to modify/change 1 to another
 # another dictionary named duplicate_student is created which value is student.copy
 print(student)
 # returns results of student dictionary  {'name': 'vamsi', 'age': '25 years', 'college': 'abc-college'}
@@ -81,30 +81,30 @@ print(duplicate_student)
 
 # # modify an existing key value in dictionary
 print('\n # modify an existing key value in dictionary')
-student['name'] = 'vamsi krishna chunduru'
+student['name'] = 'vamsi krishna chunduru' # = assignment operator to modify vamsi to vamsi krisna..
 print(student)
 # name changed/modified from 'vamsi' to 'vamsi krishna chunduru' using (=)
 
 # # delete a key from the dictionary
 print('\n # delete a key from the dictionary')
-if 'college' in student:
+if 'college' in student: # if for conditional statement; in is membership operator
     student.pop('college') # .pop is used to remove the key&values 
     print(student)
-else:
+else: # otherwise or if not
     print('key not found')
 # since college was removed above using .pop, it returned 'key not found'
 
 # # add a new key value to dictionary
 print('\n # add a new key value to dictionary')
-student['college'] = 'abc-college'
+student['college'] = 'abc-college' # = assignment operator to modify/change 1 value to another
 print(student)
 # since we removed 'college' from the dictionary earlier, we added it back using its key&value
 
 
 # # iterate over a dictionary keys
-# 'for' means 'looping' it is used for repetitive tasks
+
 print('\n # iterate over a dictionary keys')
-for key in student.keys():
+for key in student.keys(): # 'for' means 'looping' it is used for repetitive tasks
     print(key)
 # iterates over the dictionary students & returns keys in order on separate lines
 
@@ -118,7 +118,7 @@ for val in student.values():
 print('\n # iterate over a dictionary key,value pairs')
 for key,val in student.items():
     print(key, val)
-#  iterates over student dictionary & returns keys&values in oder on separate lines 
+#  iterates over student dictionary & returns keys&values in order on separate lines 
 
 # # clear all key-value from dictionary
 print('\n # clear all key-value from dictionary')

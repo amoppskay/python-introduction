@@ -18,7 +18,7 @@ for i in range(n):
 
 def get_db_secrets():
     # havent got DB details, aws secret id at the moment
-    pass
+    pass # move on dont do anything since I dont have the secret
 
 
 print("All the other statements will be executed normally!")

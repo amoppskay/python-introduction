@@ -18,9 +18,10 @@ else:
 """
 # if-else-if example
 print('\n #if-else-if example')
-marks = int(input("What is your exam score? "))
+marks = int(input("What is your exam score? ")) #input is for type conversion
 print(marks, type(marks))
 grade = None
+# you have to fill in your grade manually, your grade determines your score below & what is printed
 if marks >= 85 and marks <= 100:
     print('You got an A! Congrats!')
     grade = 'A'
@@ -38,5 +39,8 @@ else:
     grade = 'Fail'
 
 print("Fill grade : {} in the sheet".format(grade))
+print("Fill grade : ", grade, "in the sheet")
+# this will print whatever the score is to replace the {}, returns values like "Fill grade A/B/C etc in the sheet"
 
+print("Fill grade : {}, marks: {} in the sheet".format(grade, marks)) # adding marks to the code
 

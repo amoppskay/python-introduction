@@ -7,10 +7,9 @@
 
 # # Exception example - 1
 # print("\n# Exception example - 1 (Logical)")
-# # marks = 85
-# # result = marks / 0
-# # print("results: {}".format(result))
-
+# marks = 85
+# result = marks / 0 # we cant divide any # by 0, this is a logical exception not an error
+# print("results: {}".format(result))
 
 # # Exception handling for the example-1(Logical example)
 # print("\n# Exception handling for the example-1(Logical example)")
@@ -33,8 +32,8 @@
 #     print("%i Sheep"%sheep_count)
 
 # # Exception example - 3 (Runtime)
-# # file_data = open("movies_data.csv", "r")
-# # print(file_data.read())
+file_data = open("movies_data.csv", "r")
+print(file_data.read())
 
 # # Exception handling for the example-3(Runtime example)
 # print("\n# Exception handling for the example-2(Runtime example)")
